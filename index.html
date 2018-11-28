@@ -1,0 +1,374 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>roszdrav</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+
+ </head>
+ <body>
+  <header>
+ 	<div class="header_wrapper container">
+ 	  <div class="header__logo">
+ 	  	<img src="/upload/logo.png" alt="roszdrav logo">
+ 	  </div>
+ 	  <div class="header__form">
+ 	  	<form action="" method="get">
+ 	  	  <div class="header__entrance-auth">
+ 	  		<div class="header__entrance"><a href="#">ВХОД</a></div>
+ 	  		<div class="header__auth"><a href="#">РЕГИСТРАЦИЯ</a></div>
+ 	  	  </div>
+ 	  	  <div class="header__mail-subscribe">
+ 	  		<div class="header__mail"><input type="E-mail" name="user_email" class="header__mail_input" placeholder="E-mail"></div>
+ 	  		<div class="header__subscribe"><a href="#">подписаться на новости</a></div>
+ 	  	  </div>
+ 	  	</form>
+ 	  </div>
+ 	  <div class="header__image">
+ 	  	<img src="/upload/image.png" alt="first vestnik img">
+ 	  </div>
+    <div class="header__burger" onclick="Expand_menu()">
+      <div class="burger">
+        <div class="burger__line burger__line_x1"></div>
+        <div class="burger__line burger__line_middle"></div>
+        <div class="burger__line burger__line_x2"></div>
+      </div>
+    </div>
+    <div class="burger-menu">
+      <div class="burger-menu_item" id="burger-menu_main"><a href="#">ГЛАВНАЯ</a></div>
+      <div class="burger-menu_item" id="burger-menu_journal"><a href="#">О ЖУРНАЛЕ</a>
+        <div class="burger-menu_sub">
+          <div class="burger-menu_sub_item" ><a href="#"><div>О журнале</div></a></div>
+          <div class="burger-menu_sub_item"><a href="#"><div>Цели и задачи</div></a></div>
+          <div class="burger-menu_sub_item"><a href="#"><div>Редакционный совет</div></a></div>
+          <div class="burger-menu_sub_item"><a href="#"><div>Страница журнала в РИНЦ</div></a></div>
+        </div>
+      </div>
+      <div class="burger-menu_item"><a href="#">АВТОРАМ</a></div>
+      <div class="burger-menu_item"><a href="#">СТАТЬИ</a></div>
+      <div class="burger-menu_item"><a href="#">АРХИВ</a></div>
+      <div class="burger-menu_item"><a href="#">ПОДПИСКА</a></div>
+      <div class="burger-menu_item"><a href="#">КОНТАКТЫ</a></div>
+    </div>	  
+ 	</div>
+ 	<div class="header__down_wrapper">
+	  <div class="header__down container">
+      <div></div>
+ 	  	<div class="header__social">
+ 	  		<div class="header__social_item"><a class="link" href="https://www.vk.com/">
+ 	  			<img src="/upload/vk.svg">
+ 	  		</a></div>
+ 	  		<div class="header__social_item"><a class="link" href="https://www.facebook.com/">
+ 	  			<img src="/upload/facebook-logo-in-circular-button-outlined-social-symbol.svg">
+ 	  		</a></div>
+ 	  		<div class="header__social_item"><a class="link" href="https://www.twitter.com/">
+ 	  			<img src="/upload/twitter-circular-button.svg">
+ 	  		</a></div>
+ 	  	</div>
+ 	  	<div class="header__en-ru">
+ 	  		<a href="#"><div class="header__en">EN</div></a>
+ 	  		<a href="#"><div class="header__ru">RU</div></a>
+ 	  	</div>
+ 	  	<div class="header__search">
+		 
+			<form class="header_search_inner" action="" method="get">
+			  <input type="text" name="searchtext" placeholder="Поиск" class="header__search_input">
+					
+			</form>
+		  
+		</div>
+ 	  </div>
+ 	  <div class="header_menu">
+ 		<div class="header__menu_content container">
+ 			<div id="header__menu_main" class="header__menu_item wow fadeIn" data-wow-delay="1.0s" data-wow-duration="1.0s" >
+ 			  <a class="wow fadeIn_background" data-wow-delay="1.3s" data-wow-duration="0.7s" href="#">ГЛАВНАЯ</a>
+ 			</div>
+ 			<div id="header__menu_journal" class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" >
+        <a href="#">О ЖУРНАЛЕ</a>
+        <div class="header__menu_sub">
+          <div class="header__menu_sub_content container">
+            <div class="header__menu_sub_mgleft clearfix">
+              <div class="header__menu_sub_item"><a href="#"><div>О журнале</div></a></div>
+              <div class="header__menu_sub_item"><a href="#"><div>Цели и задачи</div></a></div>
+              <div class="header__menu_sub_item"><a href="#"><div>Редакционный совет</div></a></div>
+              <div class="header__menu_sub_item"><a href="#"><div>Страница журнала в РИНЦ</div></a></div>
+              <div class="header__sub_underline"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 			<div class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" ><a href="#">АВТОРАМ</a></div>
+ 			<div class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" ><a href="#">СТАТЬИ</a></div>
+ 			<div class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" ><a href="#">АРХИВ</a></div>
+ 			<div class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" ><a href="#">ПОДПИСКА</a></div>
+ 			<div class="header__menu_item wow fadeIn" data-wow-delay="1s" data-wow-duration="1.0s" ><a href="#">КОНТАКТЫ</a></div>
+      <div class="test1"></div>
+      <div class="header__menu_bar"></div>
+ 		</div>
+ 	  </div>
+ 	  
+ 	</div>
+  </header>
+
+  <section class="promopic">
+  	<div class="promopic__content container">
+  	  <div class="promopic__text">
+  		  <div class="promopic__text_header wow fadeIn" data-wow-delay="2s" data-wow-duration="0.7s">
+  			Уважаемые коллеги!
+  		  </div>
+  		  <div class="promopic__text_main wow fadeIn" data-wow-delay="2.5s" data-wow-duration="0.7s">
+  			Мы благодарим вас за интерес, проявленный к нашему журналу, и надеемся видеть вас в числе наших постоянных читателей!
+  		  </div>
+  	  </div>
+  	  <div class="promopic__form wow fadeIn" data-wow-delay="3.0s" data-wow-duration="0.7s">
+  	  	<form action="" method="get">
+ 		      <div class="promopic__form_header-up">ОФОРМИТЕ ПОДПИСКУ</div>
+ 		      <div class="promopic__form_header-down">Журнал выходит 1 раз в 2 месяца</div>
+ 		      <div class="promopic__form_item" id="YourName"><input type="text" name="user_name" placeholder="Имя"></div>
+ 		      <div class="promopic__form_item" id="YourEmail"><input type="email" name="user_email" placeholder="E-mail"></div>
+ 		      <input type="submit" class="promopic__form_submit" name="user_submit" value="ОФОРМИТЬ ПОДПИСКУ">
+ 		    </form>				
+  	  </div>
+  	</div>
+  </section>
+  <section class="editorWord">
+  	<div class="editorWord_content container">
+  	  <div class="editorWord__pics_wrapper wow fadeIn" data-wow-delay=".0s" data-wow-duration="0.3s">
+  	  	<div class="editorWord__pics_dotted-outer">
+  	  	  <div class="editorWord__pics_dotted-inner"></div>
+  	  	</div>
+  	  	<div class="editorWord__pics_item">
+  	  	  <div class="editorWord__onepic">
+            <img src="upload/Icon1.svg" alt="Icon1">   
+  	  	  </div>
+  	  	  <div class="editorWord__pics_text wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.3s">20 докторов наук в авторах статей</div>
+  	  	</div>
+  		<div class="editorWord__pics_item">
+  		  <div class="editorWord__onepic">
+            <img src="upload/Icon2.svg" alt="Icon2">
+  	  	  </div>
+  	  	  <div class="editorWord__pics_text wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.3s">входит в вак перечень изданий</div>
+  		</div>
+  		<div class="editorWord__pics_item">
+  		  <div class="editorWord__onepic">
+            <img src="upload/Icon3.svg" alt="Icon3">
+  		  </div>
+  		  <div class="editorWord__pics_text wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.3s">издается с 1995 года</div>
+  		</div>
+  	  </div>
+  	  <div class="editorWord__info">
+  	  	<div class="editorWord__text">
+  	  	  <div class="editorWord__text_header wow fadeIn" data-wow-delay=".1s" data-wow-duration="0.5s">
+  	  	  	СЛОВО РЕДАКТОРА
+  	  	  </div>
+  	  	  <div class="editorWord__text_body wow fadeIn" data-wow-delay=".3s" data-wow-duration="0.7s">Родился 09.01.1967 в г. Свердловске<br>Высшее профессиональное образование получил в Уральском государственом ордена трудового Красного Знамени медицинском институте (окончил в 1992 г). Высшая категория по специальности акушерство и гинекология, организация здравоохранения. Главный редактор журнала &laquo;Вестник Росздравнадзора&raquo;, главный редактор и основатель журнала &laquo;Здоровье человека на Севере&raquo;, член редакционного совета журнала &laquo;Детская медицина Северо-Запада&raquo;.</div>
+  	  	  <div class="editorWord__text_fio wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.5s">Мурашко Михаил Альбертович</div>
+  	  	</div>
+  	  	<div class="editorWord__info_photo wow fadeIn" data-wow-delay=".3s" data-wow-duration="0.3s">
+  	  		<img src="../upload/Photo.png" alt="Editor_photo">
+          <div class="image-background-outline wow slide-left-down" data-wow-delay="0.7s" data-wow-duration="0.7s"></div>
+          <div class="image-background-fill wow slide-right-up" data-wow-delay="0.7s" data-wow-duration="0.7s"></div>
+  	  	</div>
+  	  </div>
+	</div>
+  </section>
+  <section class="slider wow fadeIn" data-wow-delay=".0s" data-wow-duration="0.7s">
+  	<div class="slider__content owl-carousel owl-theme">
+  	  <div class="carousel__item" id="carousel-item-1">
+  	  	<div class="carousel__content container">
+  	  	  <div class="carousel__content_header wow fadeIn" data-wow-delay=".1s" data-wow-duration="0.9s">
+  	  	  	Риск-ориентировочный подход к контрольно-надзорной деятельности
+  	  	  </div>
+  	  	  <div class="carousel__content_body wow fadeIn" data-wow-delay=".3s" data-wow-duration="1.1s">
+  	  	  	Риск-ориентировочный подход в контрольно-надзорной деятельности набирает все большую популярность. Он предполагает концентрацию ограниченных ресурсов государства в зонах максимального риска и одновременно снижение административной нагрузки на добросовестных...
+  	  	  </div>
+  	  		
+  	  	</div>
+  	  </div>
+  	  <div class="carousel__item" id="carousel-item-2">
+  	  	<div class="carousel__content container">
+  	  		<div class="carousel__content_header">
+  	  	  	Модернизация здравоохранения
+  	  	  </div>
+  	  	  <div class="carousel__content_body">
+  	  	  	Контроль за итогами реализации программы модернизации здравоохранения, в том числе за эффективным использованием медицинского оборудования. В 2010 году Правительством Российской Федерации принято решение о направлении дополнительных средств на модернизацию системы здравоохранения...
+  	  	  </div>
+  	  	</div>
+  	  </div>
+  	  <div class="carousel__item" id="carousel-item-3">
+		<div class="carousel__content container">
+  	  	</div>
+  	  </div>
+  	</div>
+  	<div class="slider__button wow fadeIn" data-wow-delay=".7s" data-wow-duration="0.5s">
+  		<a href="#">читать статью</a>
+  		<div class="slider__button_bar"></div>
+  	</div>
+  </section>
+  <!--section class="slider">
+    <div class="slider__content owl-carousel owl-theme">
+      <div class="carousel__item" id="carousel-item-1">
+        <div class="carousel__content container">
+          <div class="carousel__content_header">
+            Риск-ориентировочный подход к контрольно-надзорной деятельности
+          </div>
+          <div class="carousel__content_body">
+            Риск-ориентировочный подход в контрольно-надзорной деятельности набирает все большую популярность. Он предполагает концентрацию ограниченных ресурсов государства в зонах максимального риска и одновременно снижение административной нагрузки на добросовестных...
+          </div>
+          
+        </div>
+      </div>
+      <div class="carousel__item" id="carousel-item-2">
+        <div class="carousel__content container">
+          <div class="carousel__content_header">
+            Модернизация здравоохранения
+          </div>
+          <div class="carousel__content_body">
+            Контроль за итогами реализации программы модернизации здравоохранения, в том числе за эффективным использованием медицинского оборудования. В 2010 году Правительством Российской Федерации принято решение о направлении дополнительных средств на модернизацию системы здравоохранения...
+          </div>
+        </div>
+      </div>
+      <div class="carousel__item" id="carousel-item-3">
+    <div class="carousel__content container">
+      </div class="carousel__content_body">
+        texttexttext...
+      </div>
+    </div>
+    <div class="slider__button">
+      <a href="#">читать статью</a>
+      <div class="slider__button_bar"></div>
+    </div>
+  </section-->
+
+
+
+  <section class="journalPage1">
+  	<div class="journalPage1__content container">
+  	  <div class="journalPage1__text wow fadeIn" data-wow-delay="0.1s" data-wow-duration="0.6s">
+  	    <div class="journalPage1__text_header">вестник росздравнадзора <span>№</span>1</div>
+  	    <div class="journalPage1__text_date wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.6s">10/02/2018</div>
+  	    <div class="journalPage1__text_body wow fadeIn" data-wow-delay=".3s" data-wow-duration="0.7s"><span class="bold">Тема номера:</span> Журнал «Вестник Росздравнадзора» издается с 2008 года. Журнал предназначен для  специалистов в области медицинской и фармацевтической деятельности. Концепция журнала включает в себя комплексное обсуждение проблем, так или иначе связанных с вопросами государственного регулирования в области здравоохранения, социальной сферы и фармацевтической деятельности. Выходит 1 раз в 2 месяца (6 номеров в год). </div>
+  	    <div class="journalPage1__text_button wow fadeIn" data-wow-delay=".2s" data-wow-duration="0.7s"><a href="#">смотреть в pdf</a></div>
+  	  </div>
+  	  <div class="journalPage1__img wow fadeIn" alt="Page_1_photo" data-wow-delay="0.3s" data-wow-duration="0.7s">
+  	  	<img src="../upload/Image.png">
+        <div class="image-background-outline wow slide-left-down" data-wow-delay="0.7s" data-wow-duration="0.7s"></div>
+        <div class="image-background-fill wow slide-right-up" data-wow-delay="0.7s" data-wow-duration="0.7s"></div>
+  	  </div>
+  	</div>
+  </section>
+  <section class="archive">
+  	<div class="archive__content container">
+  	  <div class="archive__header">
+  	    <div class="archive__title wow fadeIn" data-wow-delay="0.0s" data-wow-duration="0.5s">АРХИВ</div>
+      <div class="archive__header_line wow line-grow" data-wow-delay="0.4s" data-wow-duration="0.8s"></div>
+  		<div class="archive__dates">
+  		  <div class="archive__dates_item"><a class="wow grow-from-down" data-wow-delay="0.4s" data-wow-duration="0.7s" href="#"><div class="wow fadeIn" data-wow-delay="0.9s" data-wow-duration="0.6s">2017</div></a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#" href="#">2016</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2015</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2014</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2013</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2012</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2011</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2010</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2009</a></div>
+  		  <div class="archive__dates_item"><a class="wow slide-from-down" data-wow-delay="1.2s" data-wow-duration="0.5s" href="#">2008</a></div>
+  		</div>
+  	  </div>
+  	  <div class="archive__numbers">
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img class="archive__numbers_img" src="upload/vestnik_png/image6.png" alt="Vestnik_numbe_6_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№6 (2017)</span></div>
+  	  	</div>
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img src="upload/vestnik_png/image5.png" alt="Vestnik_numbe_5_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№5 (2017)</span></div>
+  	  	</div>
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img src="upload/vestnik_png/image4.png" alt="Vestnik_numbe_4_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№4 (2017)</span></div>
+  	  	</div>
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img src="upload/vestnik_png/image3.png" alt="Vestnik_numbe_3_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№3 (2017)</span></div>
+  	  	</div>
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img src="upload/vestnik_png/image2.png" alt="Vestnik_numbe_2_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№2 (2017)</span></div>
+  	  	</div>
+  	  	<div class="archive__numbers_item wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.7s">
+  	  	  <a class="archive__numbers_page link" href="#"><img src="upload/vestnik_png/image1.png" alt="Vestnik_numbe_1_img"></a>
+  	  	  <div class="archive__numbers_name">Вестник Росздравнадзора
+<br><span class="bold">№1 (2017)</span></div>
+  	  	</div>
+  	  </div>
+  	  <div class="archive__download">
+  	  	<a href="#" download>
+  	  	Скачать все номера за 2017 год
+  	    </a>
+  	  </div>
+  	</div>
+  </section>
+  <footer class="footer">
+  	<div class="footer__content container">
+  	  <div class="footer__nav">
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">ГЛАВНАЯ</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">О ЖУРНАЛЕ</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">АВТОРАМ</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">СТАТЬИ</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">АРХИВ</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">ПОДПИСКА</a></div>
+  	  	<div class="footer__nav_item"><a class="footer_link" href="#">КОНТАКТЫ</a></div>
+  	  </div>
+  	  <div class="footer__info">
+  	  	<div class="footer__info_logo">
+  	  		<img src="upload/vestnik.png" alt="Vestnik_logo">
+  	  	</div>
+  	  	<div class="footer__info_social">
+  	  	  <div id="footer-vk" class="footer__social_item"><a class="link" href="https://www.vk.com/"></a></div>
+  	  	  <div id="footer-fb" class="footer__social_item"><a class="link" href="https://www.facebook.com/"></a></div>
+  	  	  <div id="footer-tw" class="footer__social_item"><a class="link" href="https://www.twitter.com/"></a></div>
+  	  	</div>
+  	  	<div class="footer__mail_wrapper">
+ 	  		<div class="footer__mail"><input type="E-mail" name="user_email" class="footer__mail_input" placeholder="E-mail"></div>
+ 	  		<div class="footer__subscribe"><a class="link" href="#">подписаться на новости</a></div>
+  	  	</div>
+  	  </div>
+  	  <div class="footer__form">
+  	  	<form class="footer__form_inner" action="" method="get">
+ 		  <div class="promopic__form_header-up">ОФОРМИТЕ ПОДПИСКУ</div>
+ 		  <div class="promopic__form_header-down">Журнал выходит 1 раз в 2 месяца</div>
+ 		  <div class="promopic__form_item" id="YourName"><input type="text" name="user_name" placeholder="Имя"></div>
+ 		  <div class="promopic__form_item" id="YourEmail"><input type="email" name="user_email" placeholder="E-mail"></div>
+ 		  <input type="submit" class="promopic__form_submit footer_link" name="user_submit" value="ОФОРМИТЬ ПОДПИСКУ">
+ 		</form>				
+ 	  </div>
+  	</div>
+  </footer>
+
+ 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script src="js/wow.min.js"></script>
+  <script src="js/jquery.viewportchecker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+
+  <script src="js/main.js"></script>
+
+
+<script> new WOW().init(); </script>
+ </body>
+ </html>
+
+ 

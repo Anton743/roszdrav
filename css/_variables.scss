@@ -1,0 +1,32 @@
+//_____________FONTS_____________
+$main-font: "Montserrat", "Arial", sans-serif;
+$second-font: "Roboto", "Arial", sans-serif;
+$default-font-size: 16px;
+@media all and (max-width: 767px){
+	$default-font-size: 14px;
+}
+//_____________COLORS_____________
+$black: #000;
+$color_blue: rgb(0, 133, 222);
+$color_blue_opa_05: rgba(0, 133, 222, 0.5);
+$color_white: rgb(255, 255, 255);
+$color_white_opa: rgba(255, 255, 255, 0.8);
+$color_grey: rgb(61, 61, 61);
+$color_grey1: rgb(95, 95, 95);
+$color_grey1_opa: rgba(95,95,95, 0.8);
+$color_grey2: rgb(102, 102, 102);
+$color_grey3: rgb(32, 32, 32);
+$color_black: rgb(0, 0, 0);
+$mainDark: #000;
+$colSpacing: 15px; 
+
+$trans_norm: 0.3s;
+
+$opa_norm: 1.0; 
+$opa_0_5: 0.5;
+$opa_0_6: 0.6;
+
+$bar_width: 100px;
+
+$ls_norm: 1px;
+$ls_double: 2px;
