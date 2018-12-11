@@ -53,6 +53,7 @@
 	height: 10px;
 	margin: 3px 3px;
 	background: #D6D6D6;
+	transition: all 0.6s;
 	display: block;
 	-webkit-backface-visibility: visible;
 	transition: opacity .2s ease;
@@ -63,10 +64,19 @@
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
 	background: rgb(0, 133, 222);
+	transition: all 0.7s;
 }
 
 
 /*----------------------------------------------------*/
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+		border-radius: 20%;
+	}
+.owl-carousel .owl-nav button.owl-next:hover {
+		border-radius: 20%;
+	}
+
 .owl-theme .owl-dots{
 	position: absolute;
 	width: 25%;
@@ -84,6 +94,7 @@
 	border-radius: 50%;
 }
 .owl-theme .owl-dots .owl-dot.active{
+	transition: all 0.7s;
 	border: 2px solid white;
 	opacity: 0.8;
 }
